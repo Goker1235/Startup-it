@@ -1,0 +1,30 @@
+.footer{
+    background: #303030;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin: 0 120px;
+}
+
+@media (max-width: 992px){
+    .footer__inner{
+        margin: 0 16px;
+    }
+}
+
+@media (max-width: 760px){
+    .footer__inner{
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__logo-link{
+        max-width: 127px;
+        max-height: 18px;
+    }
+}
